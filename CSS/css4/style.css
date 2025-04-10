@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: bisque; */
+}
+.displayinl div{
+    background-color: yellow;
+    display: inline;
+    /* width: 300px; */
+
+}
+.displayblc div{
+    background: green;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    background-color: aqua;
+    height: 50px;
+
+}
+.flex div{
+    display: flex;
+}
+.justifyLRC div{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.justifyL div{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(229, 122, 122);
+}
+.justifyR div{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(211, 211, 240);
+}
+.JustifySpaceBet nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 188, 159);
+}
+.JustifySpaceBet div{
+    background-color: rgb(170, 117, 117);
+    color: rgb(217, 217, 243);
+}
+
+.JustifySpaceAro nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 188, 159);
+}
+.JustifySpaceAro div{
+    background-color: rgb(170, 117, 117);
+    color: rgb(217, 217, 243);
+}
+.JustifySpaceEve nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(230, 188, 159);;
+}

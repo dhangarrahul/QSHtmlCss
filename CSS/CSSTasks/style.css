@@ -1,0 +1,36 @@
+*{
+    
+    margin: 0%;
+    box-sizing: border-box;
+}
+.”temple” p:hover{
+    text-decoration: underline;
+    
+}
+.”dance” p:nth-of-type(2){
+    background-color: yellow;
+}
+#delhi p {
+    background-color: rgb(122, 130, 130);
+    font-size: 30px;
+}
+
+.world p:nth-of-type(2){
+    background-color: grey;
+}
+h3~span{
+    background-color: rgb(243, 165, 165);
+}
+.markets ul :first-child{
+    background: red;
+}
+.railways p::first-letter{
+    font-size: 2rem;
+}
+.flags p [lang^="en"]{
+    background-color: green;
+}
+p::first-letter{
+    font-size: 3rem;
+    color: red;
+}

@@ -1,0 +1,102 @@
+*{
+    /* padding: 0%; */
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
+}
+/* p::first-letter{
+    font-size: 50px;
+}
+.afterPCS p::first-letter{
+    background-color: red;
+}
+legend::after{
+    content: "Selector";
+    font-size: 3rem;
+    animation: point 0.5s infinite;
+    background-color: beige;
+} */
+
+/* --------------------------------- */
+
+.selectionPCS p::selection{
+background-color: brown;
+color: yellow;
+} 
+
+.smile::marker{
+    content: "😊";
+}
+.laugh::marker{
+    content: "😂";
+}
+.angry::marker{
+    content: "😡";
+}
+.cry::marker{
+    content: "😭";
+}
+.hungry::marker{
+    content: "😋";
+}
+.sad::marker{
+    content: "😒" ;
+}
+
+p:hover{
+    background: rgb(241, 5, 5);
+    outline: none;
+}
+p:focus{
+    background: rgb(228, 228, 155);
+    outline: none;
+}
+
+#gt::marker{
+    content: "🐐";
+}
+
+#bf::marker{
+    content: "🐃";
+}
+#cw::marker{
+    content: "🐄";
+}
+#dg::marker{
+    content: "🐕";
+}
+#cat::marker{
+    content: "🐈";
+}
+#sp::marker{
+    content: "🐏";
+}
+.unde p::before{
+    content: "rahul";
+    background-color: rgb(188, 196, 196);
+    font-size: 2rem;
+}
+.par p::before{
+   content: "hello";
+    
+    
+}
+.type input:focus{
+    
+    
+    outline: none;
+    
+}
+.type{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    
+}
+.type input{
+    
+}

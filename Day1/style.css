@@ -1,0 +1,13 @@
+*{
+    background-image:url(bg.jpg.jpg);
+    background-size: cover;
+}
+h1{
+   justify-content: center;
+    display: flex;
+    color: rgb(252, 252, 253);
+    font-size: 2.3rem;
+}
+.Intro p{
+color: white;
+}

@@ -1,0 +1,28 @@
+.notPCS P:not(.para1){
+    background-color: rgb(175, 175, 243);
+}
+.attributeWithValue [title=Mango] {
+    background-color: beige;
+}
+.attributeWithValueTagname p[class="fruit"]{
+    background-color: cadetblue;
+}
+.attributeWithchar [title^="j"]{
+    background-color: crimson;
+}
+.attributeEndchar [title$="apple"]{
+   background-color: bisque;
+}
+.attrSeparatedbyHifen [title|="fruit"]{
+    background-color: brown;
+}
+.attrSeparatedbySpace [title~="red"]{
+    background-color: yellow;
+}
+.attrIncludedSpecifiChar [id*="m"]{
+    background-color: green;
+}
+.siblingcom p ~ ol{
+    background-color: violet;
+    font-size: 3rem;
+}

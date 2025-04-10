@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables pratice</title>
+</head>
+<body>
+    <table border="1" cellpadding="15px" cellspacing="0 ">
+        <tr style="background-color: black; color: white;">
+            <th>Column A</th>
+            <th>Nested table Column</th>
+            <th>Column C</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Line 1</td>
+            <td rowspan="5">
+                <table border="1" cellpadding="15px" >
+                    <tr style="background-color: black; color: white;">
+                        <th>Nested Header</th>
+                        <th>Nested Value</th>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Sample</td>
+        </tr>
+        <tr>
+            <td>Sample</td>
+            
+        </tr>
+        <tr>
+            <td>Sample</td>
+            
+        </tr>
+        <tr>
+            <td>Sample</td>
+           
+        </tr>
+        <tr>
+            <td>Sample</td>
+            
+        </tr>
+        <tr>
+            <td>Line 2</td>
+            <td>[Other Nested Table]</td>
+            <td>Sample</td>
+        </tr>
+        <tr>
+            <td>Line 3</td>
+            <td>[Other Nested Table]</td>
+            <td>Sample</td>
+        </tr>
+        <tr>
+            <td>Line 4</td>
+            <td>[Other Nested Table]</td>
+            <td>Sample</td>
+        </tr>
+    </table>
+    <br><hr><br>
+
+
+
+    <h2>Nested Tables</h2><br>
+    <table border="1" cellpadding="15px">
+        <tr>
+            <td>Main Table row 1 column 1</td>
+            <td>
+                
+                <table border="1" cellpadding="15px">
+                    <tr>
+                        <caption>Main Table column 2</caption>
+                        <td>Inner Table row 1 column1</td>
+                        <td>Inner Table row 1 column2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 2 column1</td>
+                        <td>Inner Table row 2 column2</td>
+                    </tr>
+                    <tr>
+                        <td>Inner Table row 3 column1</td>
+                        <td>Inner Table row 3 column2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Main Table row 2 column1</td>
+            <td>Main table row 2 column2</td>
+        </tr>
+    </table>    
+   <br><br>
+    <hr><br>
+
+    <table border="1" cellpadding="15px">
+        <tr>
+            <th>Header Columm 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </tr>
+        <tr>
+            <td>Row 2- Item 1</td>
+            <td>Row 2- Item 2</td>
+            <td>
+                <caption>Roq 2: nested tablew 1</caption>
+                <table>
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 header</th>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <th>ROw 3 header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td >Row 2-item 4 a Second line</td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
