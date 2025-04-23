@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+fieldset{
+    /* padding: 20px; */
+}
+.alignitem div{
+height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(189, 189, 206);
+}
+.alignitem p{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid;
+}
+
+
+.curosaleff main{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    border: 2px grey solid;
+    overflow: auto;
+    /* imp-------------------------- */
+
+}
+.curosaleff div{
+    min-width: 45%;
+    /* imp----------------------- */
+    height: 90%;
+    background: magenta;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.flexwrap main{
+    width: 95vw;
+    border: 2px grey solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.flexwrap div{
+    width: 15%;
+    height: 40vh;
+    background: #a4d0de;
+    margin: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    
+}
+
+.flexw main{
+    width: 95vw;
+    border: 2px red solid;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexw div{
+    width: 22%;
+    height: 45vh;
+    background: #c9a879;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+#trail{
+    font-size: 3rem;
+    display: ;
+}
+ 

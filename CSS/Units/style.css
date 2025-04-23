@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* div{
+    height: 300px;
+    width: 300px;
+    background: red;
+} */
+main{
+    height: 50vh;
+    width: 50vw;
+    background: yellow;
+}
+nav{
+    height: 50%;
+    width: 50%;
+    background: grey;
+}

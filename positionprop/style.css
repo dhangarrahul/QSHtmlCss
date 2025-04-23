@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    position:fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+
+}
+section{
+    font-size: 2rem;
+    position: sticky;
+    top: 20px;
+}

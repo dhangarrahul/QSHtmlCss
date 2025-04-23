@@ -1,0 +1,49 @@
+main{
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+main img{
+    height: 130px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    gap: 2.2vw;
+}
+
+div{
+     height: 12vh;
+     width: 70px;
+     /* background: red; */
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;  
+}
+
+    
+
+summary img{
+    height: 5.5vh;
+    width: 3.5vw;
+}
+
+aside div:hover{
+    background: rgb(217, 214, 214);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+input{
+    height: 6vh;
+    width: 50vw;
+    border-radius: 2vh;
+    border: none;
+    background: rgb(242, 238, 238);
+}

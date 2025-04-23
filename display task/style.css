@@ -1,0 +1,66 @@
+*{
+    /* margin: 0%;
+    padding: 0%; */
+    box-sizing: border-box;
+}
+.box{
+    /* height: 20vh; */
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+   
+}
+.box div{
+    height: 18vh;
+    width: 15vw;
+    background-color: rgb(62, 198, 222);
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.grid1{
+    width: 65vw;
+    height: 15vh;
+    background-color: yellow;
+}
+.grid2{
+    width: 30vw;
+    height: 35vh;
+    background-color: yellow;
+}
+.grid3{
+    width: 30vw;
+    height: 35vh;
+    background-color: yellow;
+}
+.grid4{
+    width: 30vw;
+    height: 15vh;
+    background-color: yellow;
+}
+.grid5{
+    width: 30vw;
+    height: 15vh;
+    background-color: yellow;
+}
+.grid6{
+    width: 100vw;
+    height: 15vh;
+    background-color: yellow;
+}
+table{
+    background-color: yellow;
+    border: none;
+
+}
+
